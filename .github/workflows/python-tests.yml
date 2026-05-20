@@ -1,5 +1,5 @@
 name: Run tests
-
+  env:      PYTHONPATH: ${{ github.workspace }}
 on:
   pull_request:
 
